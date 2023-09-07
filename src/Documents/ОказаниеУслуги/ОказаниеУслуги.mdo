@@ -27,6 +27,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ОказаниеУслуги.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.ОстаткиМатериалов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -79,6 +80,15 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="fae892b4-d5be-4cc5-9c16-175dcb00aa4e">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="d92d5008-2d7d-4f7e-820f-5a2ac20b5e5e">
     <producedTypes>
       <objectType typeId="3bce3d53-f2b8-452a-be6d-3e668835230a" valueTypeId="703f90b6-a30d-45bb-bb14-7ef4d86e8706"/>
